@@ -7,7 +7,7 @@ grades= [] # grades = Array.new
 while true
         grade=gets.chomp
         if (grade.downcase == 'done')
-            exit
+            break
            else
             grades.push(grade.to_i)
         end 
